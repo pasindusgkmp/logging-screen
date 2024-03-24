@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root
+{
+    --primary:#430b9d;
+    --frontfamily:"Poppins";
+    --secondary:#b4b4b4;
+    --btncolor:#5d34b7;
+    --fontcolor:white;
+    --rowspacing:1em;
+    --padding:0.7em;
+    --fontsize:0.8em;
+}
+#logoarea{
+    text-align: center;
+    
+}
+
+#logoarea img{
+    width: 50%;
+
+}
+
+label{
+    display: block;
+    color: var(--primary);
+    font-family: var(--frontfamily);
+    font-size: var(--fontsize);
+}
+
+input{
+    width: 97%;
+    padding: var(--padding);
+    border: 1px solid;
+    border-color: var(--secondary);
+
+}
+
+.row{
+    margin-bottom: var(--rowspacing);
+}
+
+.t-right{
+    text-align: right;
+
+}
+
+.t-right a{
+   font-family: var(--frontfamily);
+   color: var(--secondary);
+   text-decoration: none;
+   font-size: var(--fontsize);
+    
+}
+
+button{
+    width: 100%;
+    background-color: var(--btncolor);
+    padding: var(--padding);
+    color: var(--fontcolor);
+    border: none;
+    
+}
+.sep{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sep span:first-child,.sep span:last-child{
+    border-top: 1px solid;
+    width: 40%;
+    border-color: var(--secondary);
+
+    
+
+}
+
+.sep span:nth-child(2){
+    color: var(--primary);
+    font-family: var(--frontfamily);
+
+}
+
+.fb{
+    fill: blue;
+    width:10%;
+}
+.fblogging{
+    font-family: var(--frontfamily);
+    font-size: var(--fontsize);
+    text-decoration: none;
+
+}
+.fbloggingarea{
+    
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 1em;
+}
+
+#wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#content{
+    width: 80%;
+    max-width: 750px;
+}
